@@ -17,7 +17,12 @@ $container   = get_theme_mod( 'diamonde_container_type' );
 
 		<div class="<?php echo esc_attr( $container ); ?>" id="footer-full-content" tabindex="-1">
 
+            <h1 class="text-center">THANKS FOR VISITING</h1>
+            <hr>
+
 			<div class="row">
+
+
 
 				<?php dynamic_sidebar( 'footerfull' ); ?>
 
