@@ -33,7 +33,7 @@ $container = get_theme_mod( 'diamonde_container_type' );
 		<a class="skip-link screen-reader-text sr-only" href="#content"><?php esc_html_e( 'Skip to content',
 		'diamonde' ); ?></a>
 
-		<nav class="navbar navbar-expand-md navbar-light bg-light">
+		<nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
 
 		<?php if ( 'container' == $container ) : ?>
 			<div class="container">
